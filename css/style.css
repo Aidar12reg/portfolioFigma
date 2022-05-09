@@ -208,7 +208,6 @@ h6 {
 
 .menu {
   width: 100%;
-  max-width: 515px;
 }
 
 .menu__body {
@@ -224,6 +223,10 @@ h6 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.menu__item {
+  padding: 10px;
 }
 
 .menu__item:last-child {
@@ -1222,6 +1225,11 @@ body.lock {
     padding-bottom: 10px;
   }
 
+  .menu {
+    max-width: 530px;
+    padding-left: 15px;
+  }
+
   .menu__link:hover {
     color: #ff8a56;
   }
@@ -1776,7 +1784,7 @@ body.lock {
   }
 
   .menu {
-    max-width: 767px;
+    max-width: 100%;
   }
 
   .menu__item:last-child {
